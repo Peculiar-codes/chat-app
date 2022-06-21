@@ -9,7 +9,7 @@ import PeculiarDate from "peculiar-date"
 const Chats: NextPage = () => {
   const [users,setUsers]:Array<object> = useState([]);
   const [user,setUser]:object= useState({
-    name:"dummy",
+    name:"Dummy",
     img:"/favicon.ico"
   });
   const [messages,setMessages]:object[] = useState([]);
@@ -40,7 +40,9 @@ const Chats: NextPage = () => {
         <meta name="description" content=".." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="h-[78vh]">
     <MsgList messages={messages}/>
+    </div>
     </div>
   )
 }

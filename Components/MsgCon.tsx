@@ -3,7 +3,7 @@ import {
 } from "@mui/material"
 
 
-const MsgCon = ({children}) =>{
+const MsgCon = ({messages}) =>{
   return (
     <Card className="rounded-lg p-2 bg-blue-700">
     {children}
