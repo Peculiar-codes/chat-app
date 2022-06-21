@@ -6,6 +6,8 @@ import {
 const MsgHeader = ({user}) =>{
   return(
     <Paper className="flex justify-evenly align-center">
+    <div>
+    </div>
     <figure>
     <img src="" className="h-6 w-6" />
     </figure>
@@ -14,8 +16,11 @@ const MsgHeader = ({user}) =>{
     <Typography variant="h3">
     {user.name}
     </Typography>
-    <Typography variant="b"
+    <Typography variant="body1">
+    {user.status}
+    <Typography>
     </div>
+    
     </div>
     </Paper>
     )
