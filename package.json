@@ -31,7 +31,17 @@
     "typescript": "4.7.4"
   },
   "main": "index.js",
-  "repository": "https://github.com/Peculiar-codes/chat-app.git",
   "author": "Pex",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "chat-app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peculiar-codes/chat-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Peculiar-codes/chat-app/issues"
+  },
+  "homepage": "https://github.com/Peculiar-codes/chat-app#readme"
 }
