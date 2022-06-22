@@ -8,7 +8,7 @@ import io from "socket.io-client"
 
 const Chats: NextPage = () => {
   useEffect(()=>{
-    fetch ('http://localhost:5000')
+    fetch ('/api/server')
     const socket = io();
   },[]);
   const [users,setUsers]:Array<object> = useState([]);
