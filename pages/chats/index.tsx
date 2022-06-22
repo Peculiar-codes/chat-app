@@ -5,12 +5,12 @@ import MsgList from "../../Components/MsgList"
 import {} from "@mui/material"
 import PeculiarDate from "peculiar-date"
 import io from "socket.io-client"
-const socket= io.connect("http://localhost:5000");
 
 const Chats: NextPage = () => {
-  io.on("send",()=>{
-    console.log("see")
-  })
+  useEffect(()=>{
+    fetch ('http://localhost:5000')
+    const socket = io();
+  },[]);
   const [users,setUsers]:Array<object> = useState([]);
   const [user,setUser]:object= useState({
     name:"Dummy",
